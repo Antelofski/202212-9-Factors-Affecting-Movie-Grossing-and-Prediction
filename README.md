@@ -1,2 +1,7 @@
-# 202212-9-Factors-Affecting-Movie-Grossing-and-Prediction
-Project ID: 202212-9; Project Name: Factors Affecting Movie Grossing and Prediction; Group Members: Hanlun Wang (hw2839), Jingtian Zhang (jz3500), Weirui Peng (wp2297)
+# EECS6893_Final_Project
+
+1. Crawl
+2. Combine
+3. Data analysis and visualization
+4. Prediction
+5. Generate pages from template https://bootstrapmade.com/demo/Reveal/

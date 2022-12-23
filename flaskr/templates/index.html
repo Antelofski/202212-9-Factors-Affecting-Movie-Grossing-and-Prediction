@@ -1,0 +1,415 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8">
+  <meta content="width=device-width, initial-scale=1.0" name="viewport">
+
+  <title>Welcome Page</title>
+  <meta content="" name="description">
+  <meta content="" name="keywords">
+
+  <!-- Favicons -->
+  <link href="{{ url_for('static', filename='assets/img/favicon.png') }}" rel="icon">
+
+  <!-- Google Fonts -->
+  <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,300i,400,400i,700,700i|Raleway:300,400,500,700,800|Montserrat:300,400,700" rel="stylesheet">
+
+  <!-- Vendor CSS Files -->
+  <link href="{{ url_for('static', filename='assets/vendor/aos/aos.css')}}" rel="stylesheet">
+  <link href="{{ url_for('static', filename='assets/vendor/bootstrap/css/bootstrap.min.css')}}" rel="stylesheet">
+  <link href="{{ url_for('static', filename='assets/vendor/bootstrap-icons/bootstrap-icons.css')}}" rel="stylesheet">
+  <link href="{{ url_for('static', filename='assets/vendor/boxicons/css/boxicons.min.css')}}" rel="stylesheet">
+  <link href="{{ url_for('static', filename='assets/vendor/glightbox/css/glightbox.min.css')}}" rel="stylesheet">
+  <link href="{{ url_for('static', filename='assets/vendor/swiper/swiper-bundle.min.css')}}" rel="stylesheet">
+
+  <!-- Template Main CSS File -->
+  <link href="{{ url_for('static', filename='assets/css/style.css')}}" rel="stylesheet">
+
+  <!-- =======================================================
+  * Template Name: Movie-Analysis - v4.9.1
+  * Template URL: https://bootstrapmade.com/reveal-bootstrap-corporate-template/
+  * Author: BootstrapMade.com
+  * License: https://bootstrapmade.com/license/
+  ======================================================== -->
+</head>
+
+<body>
+
+  <!-- ======= Header ======= -->
+  <header id="header" class="d-flex align-items-center">
+    <div class="container d-flex justify-content-between">
+
+      <div id="logo">
+        <h1><a href="/">Movie <span>Analysis</span></a></h1>
+        <!-- Uncomment below if you prefer to use an image logo -->
+        <!-- <a href="index.html"><img src="assets/img/logo.png" alt=""></a>-->
+      </div>
+
+      <nav id="navbar" class="navbar">
+        <ul>
+          <li><a class="nav-link scrollto active" href="#hero">Home</a></li>
+          <li><a class="nav-link scrollto" href="#about">Goal & Novelty</a></li>
+          <li><a class="nav-link scrollto" href="#ts">Technology & System</a></li>
+          <li><a class="nav-link scrollto" href="#dataset">Dataset</a></li>
+          <li><a class="nav-link scrollto " href="#visualization">Visualization</a></li>
+          <li><a class="nav-link scrollto" href="#prediction">Prediction</a></li>
+          <li><a class="nav-link scrollto" href="#team">Team</a></li>
+        </ul>
+        <i class="bi bi-list mobile-nav-toggle"></i>
+      </nav><!-- .navbar -->
+
+    </div>
+  </header><!-- End Header -->
+
+  <!-- ======= hero Section ======= -->
+  <section id="hero">
+
+    <div class="hero-content" data-aos="fade-up">
+      <h2>Show you <span>Movie Analysis</span><br>from 2010 to 2022!</h2>
+      <div>
+        <a href="#about" class="btn-get-started scrollto">Get Started</a>
+        <a href="#visualization" class="btn-projects scrollto">See Results</a>
+      </div>
+    </div>
+
+    <div class="hero-slider swiper">
+      <div class="swiper-wrapper">
+        <div class="swiper-slide" style="background-image: url('../static/assets/img/hero-carousel/1.jpg');"></div>
+        <div class="swiper-slide" style="background-image: url('../static/assets/img/hero-carousel/2.jpg');"></div>
+        <div class="swiper-slide" style="background-image: url('../static/assets/img/hero-carousel/3.jpg');"></div>
+        <div class="swiper-slide" style="background-image: url('../static/assets/img/hero-carousel/4.jpg');"></div>
+        <div class="swiper-slide" style="background-image: url('../static/assets/img/hero-carousel/5.jpg');"></div>
+      </div>
+    </div>
+
+  </section><!-- End Hero Section -->
+
+  <main id="main">
+
+    <!-- ======= About Section ======= -->
+    <section id="about">
+      <div class="container" data-aos="fade-up">
+        <div class="section-header">
+          <h2>Goal & Novelty</h2>
+        </div>
+
+        <div class="row gy-4">
+
+          <div class="col-lg-6" data-aos="fade-up" data-aos-delay="400">
+            <div class="box">
+              <div class="icon"><i class="bi bi-binoculars"></i></div>
+              <h4 class="title">New Dataset</h4>
+              <p class="description">Crawl movie sales in the boxoffice website and combine them to existing datasets</p>
+            </div>
+          </div>
+
+          <div class="col-lg-6" data-aos="fade-up" data-aos-delay="100">
+            <div class="box">
+              <div class="icon"><i class="bi bi-card-checklist"></i></div>
+              <h4 class="title">Feature Exploration</h4>
+              <p class="description">Analyze relations between movie sales and some factors (including release date, genre, runtime, imdb ratings…)</p>
+            </div>
+          </div>
+
+          <div class="col-lg-6" data-aos="fade-up" data-aos-delay="200">
+            <div class="box">
+              <div class="icon"><i class="bi bi-bar-chart"></i></div>
+              <h4 class="title">Long Time Span</h4>
+              <p class="description">Provide a visualized analysis from 2010 to 2022</p>
+            </div>
+          </div>
+
+          <div class="col-lg-6" data-aos="fade-up" data-aos-delay="300">
+            <div class="box">
+              <div class="icon"><i class="bi bi-briefcase"></i></div>
+              <h4 class="title">Creative and Interactive Application</h4>
+              <p class="description">Predict movie sales for movie providers when providing related information</p>
+            </div>
+          </div>
+
+        </div>
+
+      </div>
+    </section><!-- End Services Section -->
+
+    <!-- ======= TS Section ======= -->
+    <section id="ts">
+      <div class="container" data-aos="fade-up">
+        <div class="section-header">
+          <h2>Technology & System</h2>
+        </div>
+        <div class="container">
+          <h4 class="title"><strong>Technology</strong></h4>
+          <p>In this project, we would like to collect and form a unique and qualified movie dataset containing complete and important movie features and information. Data preprocessing tasks have been involved in the process of building up
+our movie dataset. Then, we will look deeper on the dataset,
+conducting data visualization and analysis to see which factors affect movie gross more. After that, we would like to
+apply and train several types of machine learning models
+through scikit-learn to evaluate and compare their performances on movie gross prediction tasks. What is more, we
+also intend to make use of the ensemble approach, which
+has rarely been adopted in the research on predicting boxoffice performance, to test if such method could bring improvement on prediction accuracy. In the end, we hope to
+develop a website that will let people see historical movie
+data and forecast movie box office revenue using a variety
+of inputs.</p>
+        </div>
+        <div class="container">
+          <h4 class="title"><strong>System Design</strong></h4>
+          <img src="https://raw.githubusercontent.com/HanlunWang/EECS6893_Final_Project/main/flaskr/static/assets/img/system.png" class="auto-img" alt="" >
+        </div>
+      </div>
+    </section><!-- End Services Section -->
+
+    <!-- ======= Dataset Section ======= -->
+    <section id="dataset">
+      <div class="container" data-aos="fade-up">
+        <div class="section-header">
+          <h2>Dataset</h2>
+          <p>In order to acquire a complete and clean dataset for training the prediction models, we start from crawling data from
+websites of those large movie organizations, for instance
+imdb, and boxofficemojo. For feature engineering, we capture movie features that might affect the movie gross significantly. In our case, movie imdb rate, movie genre, movie
+duration, movie directors, and movie release year are the
+features we chose to train the machine learning model. After fetching the official movie data, we start to look at augmenting the datasets, in a word, increasing the volume of
+our dataset. Therefore, we choose a qualified movie dataset
+from imdb and preprocess through deleting the incomplete
+movie data and picking movie data ranging from 2010 to
+2022 in order to analyze movie in this range. Then, by combining the two datasets, we
+expand the size of our dataset. There are roughly 3000 rows
+of movie data within our dataset, with all the relevant
+feature information clearly presented.</p>
+        </div>
+
+        <div class="row gy-4">
+
+          <div class="col-lg-6" data-aos="fade-up" data-aos-delay="100">
+            <div class="box">
+              <div class="icon"><i class="bi bi-binoculars"></i></div>
+              <h4 class="title">crawl.py</h4>
+              <p class="description">How we crawled from <a href="https://www.boxofficemojo.com/year/world/2022/">boxofficemojo</a> website</p>
+            </div>
+          </div>
+
+          <div class="col-lg-6" data-aos="fade-up" data-aos-delay="200">
+            <div class="box">
+              <div class="icon"><i class="bi bi-card-checklist"></i></div>
+              <h4 class="title">crawl.dataset.csv</h4>
+              <p class="description">This csv is our crawled result</p>
+            </div>
+          </div>
+
+          <div class="col-lg-6" data-aos="fade-up" data-aos-delay="100">
+            <div class="box">
+              <div class="icon"><i class="bi bi-binoculars"></i></div>
+              <h4 class="title">combine.py</h4>
+              <p class="description">How we combined with 4 existing datasets from <a href="https://www.imdb.com/interfaces/">imdb interface</a></p>
+            </div>
+          </div>
+
+          <div class="col-lg-6" data-aos="fade-up" data-aos-delay="200">
+            <div class="box">
+              <div class="icon"><i class="bi bi-card-checklist"></i></div>
+              <h4 class="title">combine.dataset.csv</h4>
+              <p class="description">This csv is our combined result</p>
+            </div>
+          </div>
+
+        </div>
+
+        <div class="container">
+          <br>
+          <h4 class="title"><strong>Need codes?</strong> <a href="https://github.com/HanlunWang/EECS6893_Final_Project">Click here to see our GitHub Repo!</a></h4>
+        </div>
+
+      </div>
+    </section><!-- End Services Section -->
+
+    <!-- ======= Visualization Section ======= -->
+    <section id="visualization" class="portfolio">
+      <div class="container" data-aos="fade-up">
+        <div class="section-header">
+          <h2>Visualization</h2>
+          <p>Here is our result gallery, you can see detailed information when you move the mouse up.</p>
+        </div>
+
+        <div class="row portfolio-container" data-aos="fade-up" data-aos-delay="200">
+
+          <div class="col-lg-4 col-md-6 portfolio-item filter-app">
+            <img src="../static/assets/img/figures/imdbrate-distribution.png" class="img-fluid" alt="">
+            <div class="portfolio-info">
+              <h4>imdbrate-distribution</h4>
+              <p>From this figure, you can find that 6.5 is the most common imdb rate in this dataset. Also, the number of imdb rate less than 5 and more than 8 is very small.</p>
+              <a href="../static/assets/img/figures/imdbrate-distribution.png" data-gallery="portfolioGallery" class="portfolio-lightbox preview-link" title="App 1"><i class="bx bx-plus"></i></a>
+            </div>
+          </div>
+
+          <div class="col-lg-4 col-md-6 portfolio-item filter-web">
+            <img src="../static/assets/img/figures/movie-genre-proportions.png" class="img-fluid" alt="">
+            <div class="portfolio-info">
+              <h4>movie-genre-proportions</h4>
+              <p>This figure is to show the proportions of movie genres. Drama, comedy, action and adventure are the parts that is more than 10%.</p>
+              <a href="../static/assets/img/figures/movie-genre-proportions.png" data-gallery="portfolioGallery" class="portfolio-lightbox preview-link" title="Web 3"><i class="bx bx-plus"></i></a>
+            </div>
+          </div>
+
+          <div class="col-lg-4 col-md-6 portfolio-item filter-web">
+            <img src="../static/assets/img/figures/runtime-distribution.png" class="img-fluid" alt="">
+            <div class="portfolio-info">
+              <h4>runtime-distribution</h4>
+              <p>From this figure, you can find that 100-125 mins is the most common run time in this dataset. Also, the number of imdb rate less than 75 and more than 175 is very small.</p>
+              <a href="../static/assets/img/figures/runtime-distribution.png" data-gallery="portfolioGallery" class="portfolio-lightbox preview-link" title="Web 3"><i class="bx bx-plus"></i></a>
+            </div>
+          </div>
+
+          <div class="col-lg-4 col-md-6 portfolio-item filter-card">
+            <img src="../static/assets/img/figures/top20-directors.png" class="img-fluid" alt="">
+            <div class="portfolio-info">
+              <h4>top20-directors-movie-count</h4>
+              <p>The number of movies made by Tyler Perry is the most in our dataset, followed by that made by Steven Spielberg. </p>
+              <a href="../static/assets/img/figures/top20-directors.png" data-gallery="portfolioGallery" class="portfolio-lightbox preview-link" title="Card 2"><i class="bx bx-plus"></i></a>
+            </div>
+          </div>
+
+          <div class="col-lg-4 col-md-6 portfolio-item filter-web">
+            <img src="../static/assets/img/figures/top10-directors-highest-gross.png" class="img-fluid" alt="">
+            <div class="portfolio-info">
+              <h4>top10-directors-highest-gross</h4>
+              <p>The total gross of movies made by Christopher Nolan is almost 500 millions during 12 years.</p>
+              <a href="../static/assets/img/figures/top10-directors-highest-gross.png" data-gallery="portfolioGallery" class="portfolio-lightbox preview-link" title="Web 2"><i class="bx bx-plus"></i></a>
+            </div>
+          </div>
+
+          <div class="col-lg-4 col-md-6 portfolio-item filter-app">
+            <img src="../static/assets/img/figures/highest-gross-movie.png" class="img-fluid" alt="">
+            <div class="portfolio-info">
+              <h4>highest-gross-movie</h4>
+              <p>Frozen II has the highest gross for 2.9 billions.</p>
+              <a href="../static/assets/img/portfolio/portfolio-6.jpg" data-gallery="portfolioGallery" class="portfolio-lightbox preview-link" title="App 3"><i class="bx bx-plus"></i></a>
+            </div>
+          </div>
+
+          <div class="col-lg-4 col-md-6 portfolio-item filter-web">
+            <img src="../static/assets/img/figures/imdbrate-year.png" class="img-fluid" alt="">
+            <div class="portfolio-info">
+              <h4>imdbrate-year</h4>
+              <p>This figure is to show the change of imdb rate from year to year. This is a detailed version of imdbrate distribution, since we introduce the year variable.</p>
+              <a href="../static/assets/img/figures/imdbrate-year.png" data-gallery="portfolioGallery" class="portfolio-lightbox preview-link" title="Web 3"><i class="bx bx-plus"></i></a>
+            </div>
+          </div>
+
+          <div class="col-lg-4 col-md-6 portfolio-item filter-web">
+            <img src="../static/assets/img/figures/word-cloud.png" class="img-fluid" alt="">
+            <div class="portfolio-info">
+              <h4>word-cloud</h4>
+              <p>This figure is to show the word cloud of genre. You can see drama, comedy and action are the most popular ones.</p>
+              <a href="../static/assets/img/figures/word-cloud.png" data-gallery="portfolioGallery" class="portfolio-lightbox preview-link" title="Web 3"><i class="bx bx-plus"></i></a>
+            </div>
+          </div>
+
+          <div class="col-lg-4 col-md-6 portfolio-item filter-web">
+            <img src="../static/assets/img/figures/codeshere.png" class="img-fluid" alt="">
+            <div class="portfolio-info">
+              <h4>Need codes?</h4>
+              <p>Click link sign to see our codes!</p>
+              <a href="https://www.kaggle.com/code/zjt1027/visualization?scriptVersionId=112880368" class="details-link" title="More Details"><i class="bx bx-link"></i></a>
+            </div>
+          </div>
+
+        </div>
+
+      </div>
+    </section><!-- End Portfolio Section -->
+
+    <!-- ======= Prediction Section ======= -->
+    <section id="prediction" class="portfolio">
+      <div class="container" data-aos="fade-up">
+        <div class="section-header">
+          <h2>prediction</h2>
+          <p>We use several models to predict the total gross when providing these information. </p>
+        </div>
+
+        <div>
+          <h1>
+            <a href="/prediction" class="btn-get-started scrollto">Predict Your Movie</a>
+          </h1>
+          
+        </div>
+
+      </div>
+    </section><!-- End Portfolio Section -->
+
+    <!-- ======= Team Section ======= -->
+    <section id="team">
+      <div class="container" data-aos="fade-up">
+        <div class="section-header">
+          <h2>Our Team</h2>
+        </div>
+        <div class="row">
+          <div class="col-lg-3 col-md-6">
+            <div class="member">
+              <div class="pic"><img src="../static/assets/img/team-1.jpg" alt=""></div>
+              <div class="details">
+                <h4>Hanlun Wang</h4>
+                <span>hw2839@columbia.edu</span>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-lg-3 col-md-6">
+            <div class="member">
+              <div class="pic"><img src="../static/assets/img/team-2.jpg" alt=""></div>
+              <div class="details">
+                <h4>Weirui Peng</h4>
+                <span>wp2279@columbia.edu</span>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-lg-3 col-md-6">
+            <div class="member">
+              <div class="pic"><img src="../static/assets/img/team-3.jpg" alt=""></div>
+              <div class="details">
+                <h4>Jingtian Zhang</h4>
+                <span>jz3500@columbia.edu</span>
+              </div>
+            </div>
+          </div>
+        </div>
+
+      </div>
+    </section><!-- End Team Section -->
+
+  </main><!-- End #main -->
+
+  <!-- ======= Footer ======= -->
+  <footer id="footer">
+    <div class="container">
+      <div class="copyright">
+        &copy; Copyright <strong>22 Fall EECS 6893 Group #9</strong>. All Rights Reserved
+      </div>
+      <div class="credits">
+        <!--
+        All the links in the footer should remain intact.
+        You can delete the links only if you purchased the pro version.
+        Licensing information: https://bootstrapmade.com/license/
+        Purchase the pro version with working PHP/AJAX contact form: https://bootstrapmade.com/buy/?theme=Reveal
+      -->
+        Designed by <a href="https://bootstrapmade.com/">BootstrapMade</a>
+      </div>
+    </div>
+  </footer><!-- End Footer -->
+
+  <a href="#" class="back-to-top d-flex align-items-center justify-content-center"><i class="bi bi-arrow-up-short"></i></a>
+
+  <!-- Vendor JS Files -->
+  <script src="{{ url_for('static', filename='assets/vendor/aos/aos.js')}}"></script>
+  <script src="{{ url_for('static', filename='assets/vendor/bootstrap/js/bootstrap.bundle.min.js')}}"></script>
+  <script src="{{ url_for('static', filename='assets/vendor/glightbox/js/glightbox.min.js')}}"></script>
+  <script src="{{ url_for('static', filename='assets/vendor/isotope-layout/isotope.pkgd.min.js')}}"></script>
+  <script src="{{ url_for('static', filename='assets/vendor/swiper/swiper-bundle.min.js')}}"></script>
+  <script src="{{ url_for('static', filename='assets/vendor/php-email-form/validate.js')}}"></script>
+
+  <!-- Template Main JS File -->
+  <script src="{{ url_for('static', filename='assets/js/main.js')}}"></script>
+
+</body>
+
+</html>
