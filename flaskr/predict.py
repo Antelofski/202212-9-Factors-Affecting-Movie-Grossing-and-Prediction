@@ -1,6 +1,4 @@
 import pandas as pd
-from sklearn.model_selection import train_test_split
-from joblib import dump, load
 
 from sklearn.linear_model import LinearRegression
 

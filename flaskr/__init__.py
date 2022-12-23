@@ -1,9 +1,5 @@
 import os
-from flask import Flask, abort, request, render_template, g, redirect, Response, Blueprint, url_for, session, flash
-import functools
-
-from werkzeug.security import check_password_hash, generate_password_hash
-import time
+from flask import Flask, request, render_template
 
 import predict
 
